@@ -1,0 +1,303 @@
+/**
+
+FGS上海外服CSS公共库
+By Dragonway Myth Media @DD-Designer
+
+**/
+@charset "UTF-8";
+body{margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;}
+body,div{font-style: normal;font-size: 12px;font-family: "Microsoft Yahei";}
+/*1280分辨率开始*/
+@media screen and (min-width:1200px){
+    #page{ width: 1100px; }#content,.div1{width: 730px;}#secondary{width:310px}
+}
+/*1280分辨率结束*/
+/*1100分辨率开始*/
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    #page{ width: 960px; }#content,.div1{width: 650px;}#secondary{width:250px}select{max-width:200px}
+}
+/*1100分辨率结束*/
+/*880分辨率开始*/
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    #page{ width: 900px; }#content,.div1{width: 620px;}#secondary{width:220px}select{max-width:180px}
+}
+/*880分辨率结束*/
+/*720分辨率开始*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    #page{ width: 450px; }#content,.div1{width: 420px;position: relative; }#secondary{display:none}#access{width: 450px; }#access a {padding-right:5px}#access a img{display:none}#rss{display:none}#branding #s{display:none}
+}
+/*720分辨率结束*/
+/*440分辨率开始*/
+@media only screen and (max-width: 479px) {
+    #page{ width: 320px; }#content,.div1{width: 320px;}#secondary{display:none}#access{width: 340px;} #access a {padding-right:10px;padding-left:10px}#access a img{display:none}#rss{display:none}#branding #s{display:none}#access ul ul a{width:100px}
+}
+/*440分辨率结束*/
+/*320分辨率开始*/
+@media only screen and (max-width: 340px) {
+    #page{ width: 280px; }#content,.div1{width: 280px;}#secondary{display:none}#access{width: 300px;} #access a {padding-right:10px;padding-left:10px}#access a img{display:none}#rss{display:none}#branding #s{display:none}#access ul ul a{width:100px}
+}
+/*320分辨率结束*/
+
+/*主体*/
+.image-zoom{width: auto;height: 0;max-width: 100%;max-height: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;padding-bottom: 100%;}
+
+/* Font-style */
+.aboutus-bg01{background-image: url(../images/aboutus-bg01.jpg);width: auto;height: 130px;max-width: 100%;max-height: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;}
+
+h1.titleh1{font-size: 2em;font-family: "Microsoft Yahei";text-align: center;padding: 50px 0 70px 0;color: #FFFFFF;font-weight: 500;margin: 0px;}
+h1.contactus-titleh1{font-size: 2em;font-family: "Microsoft Yahei";text-align: center;color: #FFFFFF;font-weight: 500;margin: 0px;padding-top: 50px;}
+h1.titleh1white{font-size: 2em;font-family: "Microsoft Yahei";color: #FFFFFF;font-weight: 500;margin: 0px;padding-top: 96px; padding-left: 20px;}
+
+h3.titleh3{font-size: 1.6em;font-family: "Microsoft Yahei";font-weight: bold;color: #4A4A4A;}
+h3.titlehblue{font-size: 1.6em;font-family: "Microsoft Yahei";font-weight: bold;color: #0080cc;text-align: center;margin: 0px;background-color: #EBEBEB;}
+
+h4.titleh4{font-size: 1.4em;font-family: "Microsoft Yahei";font-weight: bold;color: #4A4A4A;}
+h4.titlewhite{font-size: 1.4em;font-family: "Microsoft Yahei";font-weight: normal;color: #FFFFFF;margin: 0px;padding-left: 20px;padding-top: 7px;}
+
+/*aboutus,wechat relevance*/
+.layout{width: 100%;}
+.layout-font{margin: 0 auto;padding: 10px 15px 0 15px;}
+span{font-size: 1.2em;font-family: "Microsoft Yahei";line-height: 1.4em;}
+.fontcenter{
+	margin-top: 10px;
+}
+.fontcenter2{
+	margin-top: 180px;
+}
+.logocenter{
+	margin-top: 100px;
+}
+.image-layout{
+	text-align: center;
+	padding-top: 10px;
+}
+.image-layout-welfare{
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+/* health */
+.health-logocenter{
+	margin-top: 8px;
+	padding-left: 15px;
+}
+.health-fontcenter{
+	margin-top: 68%;
+}
+.health-fontcenter2{
+	margin-top: 25px;
+}
+.health-fontcenter3{
+	margin-top: 16px;
+}
+.health-fontcenter4{
+	margin-top: 21%;
+}
+
+/* contactus */
+.contactus-bg{background-image: url(../images/contactus-bg.jpg);width: auto;height: 180px;max-width: 100%;max-height: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;}
+
+.ul1{
+	overflow: hidden;
+	padding: 0;
+	width: 450px;
+	margin-left: 10px;
+}
+.ul1 li{
+	width: 45%;
+	float: left;
+	list-style-type: none;
+}
+
+/* Welfare12345,welfaremain */
+.welfare-bg{background-image: url(../images/scheme-head-bg1.jpg);width: auto;height: 200px;max-width: 100%;max-height: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;}
+
+.medicalsecurity-bg{background-image: url(../images/scheme-head-bg2.jpg);width: auto;height: 200px;max-width: 100%;max-height: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;}
+
+.healthmanage-bg{background-image: url(../images/scheme-head-bg3.jpg);width: auto;height: 200px;max-width: 100%;max-height: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;}
+
+.salarywelfare-bg{background-image: url(../images/scheme-head-bg4.jpg);width: auto;height: 200px;max-width: 100%;max-height: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;}
+
+.welfaremain-bg{background-image: url(../images/scheme-head-bg5.jpg);width: auto;height: 300px;max-width: 100%;max-height: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;}
+#xf-left{width: 33%;margin: 0px;padding: 0px;float: left;}
+#xf-center{width: 33%; margin: 0px;float: left;}
+#xf-right{width: 33%;margin: 0px;padding: 0px;float: right;}
+#xf2-left{width: 33%;margin: 0px;padding: 0px;float: left;}
+#xf2-center{width: 33%; margin: 0px;float: left;}
+#xf2-right{width: 33%;margin: 0px;padding: 0px;float: right;}
+#solution-left{width: 33%;margin: 10px -8px 0px 8px;padding: 0px;float: left;}
+#solution-center{width: 33%; margin: 10px 0 0 0;float: left;}
+#solution-right{width: 33%;margin: 0px;padding: 0px;float: right;}
+#solution2-left{width: 33%;margin: 0px -8px 0px 8px;padding: 0px;float: left;}
+#solution2-center{width: 33%; margin: 0px;float: left;}
+#solution2-right{width: 33%;margin: 0px;padding: 0px;float: right;}
+.layout-xfmain{width: 100%;text-align: center;padding: 20px 0px 0px 0px;}
+.layout-xfmain2{text-align: center;padding-left: 0px;padding-top: 33%;}
+.layout-solutionmain{width: 100%;text-align: center;padding: 50px 0px 0px 17%;}
+.layout-solutionmain2{text-align: center;padding-left: 17%;padding-top: 33%;width: 100%;}
+.layout-solutionfont{padding: 180px 15px 0 15px;color: #FFFFFF;}
+
+
+/* Background */
+#background{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: url(../images/relevance-bg.jpg)no-repeat #227bcd;
+	background-size: cover;
+	z-index: 0;
+	overflow: hidden;word-break: break-all;
+}
+
+#health-background{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: url(../images/health-bg.jpg)no-repeat #227bcd;
+	background-size: cover;
+	z-index: 0;
+	overflow: hidden;word-break: break-all;
+}
+
+#salary-background{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: url(../images/salary-bg.jpg)no-repeat #227bcd;
+	background-size: cover;
+	z-index: 0;
+	overflow: hidden;word-break: break-all;
+}
+
+#medical-background{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: url(../images/medical-bg.jpg)no-repeat #227bcd;
+	background-size: cover;
+	z-index: 0;
+	overflow: hidden;word-break: break-all;
+}
+
+#giftbag-background{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: url(../images/giftbag-bg.jpg)no-repeat #227bcd;
+	background-size: cover;
+	z-index: 0;
+	overflow: hidden;word-break: break-all;
+}
+
+#solution-background{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: url(../images/solution-bg.jpg)no-repeat #227bcd;
+	background-size: cover;
+	z-index: 0;
+	overflow: hidden;word-break: break-all;
+}
+
+
+/* Circular Button */
+.button-circular{
+	display: inline-block;
+	position: relative;
+	padding: 13px 70px 10px 70px;
+	text-align: center;
+	text-decoration: none;
+	font: normal 14px Microsoft Yahei, Arial, sans-serif;
+	letter-spacing: 2px;
+	
+	text-shadow:1px 1px 1px rgba(255,255,255, .22);
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	/*-webkit-box-shadow:1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);*/
+	/*-moz-box-shadow:1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);*/
+	/*box-shadow:1px 1px 1px rgba(0,0,0, 29), inset 1px 1px 1px rgba(255,255,255, .44);*/
+	
+	-webkit-transition: all 0,15s ease;
+	-moz-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+.health-button-circular{
+	display: inline-block;
+	position: relative;
+	padding: 13px 90px 10px 90px;
+	text-align: center;
+	text-decoration: none;
+	font: normal 14px Microsoft Yahei, Arial, sans-serif;
+	letter-spacing: 2px;
+	
+	text-shadow:1px 1px 1px rgba(255,255,255, .22);
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	/*-webkit-box-shadow:1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);*/
+	/*-moz-box-shadow:1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);*/
+	/*box-shadow:1px 1px 1px rgba(0,0,0, 29), inset 1px 1px 1px rgba(255,255,255, .44);*/
+	
+	-webkit-transition: all 0,15s ease;
+	-moz-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+.button-circular-transparency{
+	display: inline-block;
+	position: relative;
+	padding: 13px 70px 10px 70px;
+	text-align: center;
+	text-decoration: none;
+	font: normal 14px Microsoft Yahei, Arial, sans-serif;
+	letter-spacing: 2px;
+	
+	text-shadow:1px 1px 1px rgba(255,255,255, .22);
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	/*-webkit-box-shadow:1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);*/
+	/*-moz-box-shadow:1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);*/
+	/*box-shadow:1px 1px 1px rgba(0,0,0, 29), inset 1px 1px 1px rgba(255,255,255, .44);*/
+	
+	-webkit-transition: all 0,15s ease;
+	-moz-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+
+/* Button Color */
+.button-blue{
+	color: #FFFFFF;
+	background: #56b3f5;
+}
+
+.button-transparency{
+	background: transparent;
+	color: #FFFFFF;
+	border-style: solid; border-width: 1px;
+	border-color: #F2F2F2;
+}
