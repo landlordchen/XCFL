@@ -1,0 +1,67 @@
+body{
+	background: url(../images/bigbg.jpg) no-repeat;
+	background-size: cover;
+}
+.main{
+    margin-top: 11rem;
+}
+.goods-text input{
+        border: none;
+    width: 50%;
+    background: none;
+    color: #feffff;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .6rem;
+    overflow: hidden;
+    padding: .2rem 0;
+}
+.goods-text input:focus{
+    outline: none;
+}
+.goods-text input::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: .6rem;
+}
+.goods-text span{
+	    font-size: .6rem;
+    color: #feffff;
+    width: 21%;
+    display: inline-block;
+    text-align: justify;text-justify: inter-ideograph;/* IE 私有属性 */
+    -moz-text-align-last: justify;    
+    -ms-text-align-last: justify;/* IE 8+ 支持 */
+    text-align-last: justify;/* IE5.5+ 支持 */
+
+}
+
+.goods-text div{
+    border-bottom: 1px solid #feffff;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: .5rem;
+    position: relative;
+    font-size: .6rem;
+    letter-spacing: 2px;
+    color: #feffff;
+}
+.goods-btn a{
+        color: #feffff;
+    padding: .4rem 0;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .6rem;
+    background: #56b3f6;
+    border-radius: .2rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+.goods-text div i{
+	    position: absolute;
+    color: #ccc;
+    font-size: 1rem;
+    top: .2rem;
+    right: 0;
+}
