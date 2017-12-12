@@ -4,18 +4,19 @@
 <meta charset="UTF-8">
 <title>薪酬服务</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/base.css" rel="stylesheet" type="text/css">
 </head>
-
-<body id="salary-background">
-	<div>
-		<img class="health-logocenter" width="150px" src="images/logo-y.svg">
-	</div>
-	<div style="text-align: center;">
+<script>
+    var deviceWidth = document.documentElement.clientWidth;
+    document.documentElement.style.fontSize = deviceWidth / 12.42 + 'px';
+</script>
+<body style="background: url(images/salary-bg.jpg) no-repeat;background-size: cover;">
+	<div style="text-align: center;margin-top: 11rem;">
 		<img class="health-fontcenter" width="40%" src="images/font-02.png">
 	</div>
 	<div style="text-align: center;">
-		<div class="health-button-circular button-blue health-fontcenter2" onclick="window.location.href='http://mp.efesco.com/wechatO2O/efesco/salaryController.do?goSalaryList'">我的工资</div>
+		<div style="color: #FFFFFF;background: #56b3f5;width: 70%;margin: 0 auto;border-radius: 1rem;margin-top: 1rem; font-size: .55rem;
+    padding: .3rem 0;" onclick="window.location.href='http://mp.efesco.com/wechatO2O/efesco/salaryController.do?goSalaryList'">我的工资</div>
 	</div>
 </body>
 </html>

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@charset "UTF-8";
+html { -webkit-text-size-adjust: none; -webkit-user-select: none; -webkit-touch-callout: none; font-family: Helvetica; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body, h1, h2, h3, h4, h5, h6, p, dl, dd, ul, ol, pre, form, input, textarea, th, td, select { margin: 0; padding: 0; font-weight: normal; text-indent: 0; }
+
+a, button, input, textarea, select { background: none; -webkit-tap-highlight-color: rgba(255, 0, 0, 0); outline: none; -webkit-appearance: none; }
+
+em { font-style: normal; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+img { border: none; vertical-align: top; }
+
+table { border-collapse: collapse; }
+
+textarea { resize: none; overflow: auto; }
+html { min-height: 100%; font-family:"Hiragino Sans GB" ;}
+body { background: #FFFFFF; padding-bottom: 1rem; }
+
+/* 清除浮动 */
+.clear { zoom: 1; }
+.clear:after { content: ''; display: block; clear: both; }
+
+@font-face {
+  font-family: 'iconfont';  /* project id 282380 */
+  src: url('//at.alicdn.com/t/font_282380_wnpvjv78896n7b9.eot');
+  src: url('//at.alicdn.com/t/font_282380_wnpvjv78896n7b9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_282380_wnpvjv78896n7b9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_282380_wnpvjv78896n7b9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_282380_wnpvjv78896n7b9.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+    
+a:link { 
+text-decoration: none; 
+} 
+a:visited { 
+text-decoration: none; 
+} 
+a:hover { 
+text-decoration: underline; 
+} 
+
+*{ -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent; /* For some Androids */ }  
