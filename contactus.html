@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>联系我们</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/ani.css" type="text/css">
+</head>
+
+<body style="background-image: url(images/about-bg.jpg)">
+	<div class="contactus-bg">
+		<h1 class="contactus-titleh1">FSG 上海外服 | 薪酬福利</h1>
+		<h3 class="titlehblue">全面薪酬福利解决方案引领者</h3>
+	</div>
+    <div id="main-container"> <!-- Main Container -->
+
+            <div id="dashboard" class="tab tabNoSelected"> <!-- Dashboard -->
+                <h3>薪酬福利事业部 - 总部</h3>
+                <a href="#1" class="notification">∨</a>
+            </div>
+            <div id="dashboardBody" class="tabBody">
+                <ul class="tabBodyOptions">
+                    <li><a href="#10" style="padding-top: 12px;">综合办公室</a></li>
+					<li class="drop-down"><a class="drop-down" href="#">上海市曲阳路1000号外服大厦20楼</a></li>
+                    <li class="drop-down"><a href="#">电话：021-63721888</a></li>
+                    <li class="bottom-solid"></li>
+                    <li><a href="#11" style="padding-top: 12px;">业务发展部</a></li>
+					<li class="drop-down"><a href="#">上海市曲阳路1000号外服大厦15楼</a></li>
+                    <li class="drop-down"><a href="#">电话：021-63721888-11581</a></li>
+                    <li class="drop-down"><a href="#">邮箱：fsgbbd@fsg.com.cn</a></li>
+                    <li class="bottom-solid"></li>
+                    <li><a href="#12" style="padding-top: 12px;">运营管理部</a></li>
+					<li class="drop-down"><a href="#">上海市曲阳路1000号外服大厦18楼</a></li>
+                    <li class="drop-down"><a href="#">电话：021-63721888</a></li>
+                    <li class="bottom-solid"></li>
+                    <li><a href="#11" style="padding-top: 12px;">解决方案部</a></li>
+					<li class="drop-down"><a href="#">上海市曲阳路1000号外服大厦15楼</a></li>
+                    <li class="drop-down"><a href="#">电话：4008898855</a></li>
+                    <li class="drop-down"><a href="#">邮箱：fsgsolution@fsg.com.cn</a></li>
+                    <li class="bottom-solid"></li>
+                </ul>                
+            </div>
+
+            <div id="profile" class="tab tabNoSelected"> <!-- Profile -->
+                <h3>薪酬福利事业部 - 产品线</h3>
+                <a href="#2" class="notification">∨</a>
+            </div>
+            <div id="profileBody" class="tabBody2 mainbody"> 
+                <ul class="tabBodyOptions">
+                    <li><a href="#20" style="padding-top: 12px;">薪酬服务中心</a></li>
+					<li class="drop-down"><a class="drop-down" href="#">上海市曲阳路1000号外服大厦18楼</a></li>
+                    <li class="drop-down"><a href="#">电话：021-53828907</a></li>
+                    <li class="drop-down"><a href="#">邮箱：fsgpayroll@fsg.com.cn</a></li>
+                    <li class="bottom-solid"></li>
+                    <li><a href="#21" style="padding-top: 12px;">健康管理中心</a></li>
+					<li class="drop-down"><a href="#">上海市金陵西路28号金陵大厦3楼/4楼</a></li>
+                    <li class="drop-down"><a href="#">电话：021-63721888-3300</a></li>
+                    <li class="drop-down"><a href="#">邮箱：fsghc@fsg.com.cn</a></li>
+                    <li class="bottom-solid"></li>
+                    <li><a href="#22" style="padding-top: 12px;">医疗保障中心</a></li>
+					<li class="drop-down"><a href="#">上海市金陵西路28号金陵大道10楼</a></li>
+                    <li class="drop-down"><a href="#">电话：021-63721888-5100</a></li>
+                    <li class="drop-down"><a href="#">邮箱：fsgyb@fsg.com.cn</a></li>
+                    <li class="bottom-solid"></li>
+                    <li><a href="#23" style="padding-top: 12px;">上海外服商务管理有限公司</a></li>
+					<li class="drop-down"><a href="#">上海市曲阳路1000号外服大厦18楼</a></li>
+                    <li class="drop-down"><a href="#">电话：021-63879900</a></li>
+                    <li class="drop-down"><a href="#">邮箱：fsgcbfb@fsg.com.cn</a></li>
+                    <li class="bottom-solid"></li>
+                </ul>                  
+            </div>
+            
+
+    </div> <!-- Main Container END -->
+	<br><br><br><br>
+	<div class="layout" style="text-align: center">
+		<div class="layout-font">
+			<span>更多关于上海外服薪酬福利产品及服务请联系您的客户经理<br>致电&nbsp;4001-962002&nbsp;或&nbsp;021-63721888<br>关注上海外服薪酬福利事业部官方微信<br>详情关注我们的官网：cnb.fsg.com.cn</span>
+		</div>
+	</div>
+	<div class="image-layout">
+		<img width="70%" src="images/qr-code.png">
+	</div>
+	<br>
+</body>
+  <script src='js/jquery.min.js'></script>
+  <script>
+  	$(function(){
+  		$(".tab").on("click",function(){
+  			if($(this).is(".tabNoSelected")){
+  				$(this).removeClass("tabNoSelected");
+		  		$(this).addClass("tabSelected");
+		  		$(this).next().stop().slideDown();
+		  	}else{
+		  		$(this).removeClass("tabSelected");
+		  		$(this).addClass("tabNoSelected");
+		  		$(this).next().stop().slideUp();
+		  	}
+  		})
+  		
+  	})
+  </script>
+</html>
