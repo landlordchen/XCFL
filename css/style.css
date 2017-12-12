@@ -51,7 +51,7 @@ h1.titleh1white{font-size: 2em;font-family: "Microsoft Yahei";color: #FFFFFF;fon
 h3.titleh3{font-size: 1.6em;font-family: "Microsoft Yahei";font-weight: bold;color: #4A4A4A;}
 h3.titlehblue{font-size: 1.6em;font-family: "Microsoft Yahei";font-weight: bold;color: #0080cc;text-align: center;margin: 0px;background-color: #EBEBEB;}
 
-h4.titleh4{font-size: 1.4em;font-family: "Microsoft Yahei";font-weight: bold;color: #4A4A4A;}
+h4.titleh4{font-size: 1.4em;font-family: "Microsoft Yahei";font-weight: bold;color: #4A4A4A;margin-bottom: 4px;}
 h4.titlewhite{font-size: 1.4em;font-family: "Microsoft Yahei";font-weight: normal;color: #FFFFFF;margin: 0px;padding-left: 20px;padding-top: 7px;}
 
 /*aboutus,wechat relevance*/
